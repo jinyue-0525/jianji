@@ -1,0 +1,31 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.xiaotu.notes'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.xiaotu.notes'
+        minSdk 26
+        targetSdk 35
+        versionCode 12
+        versionName '2.0.0'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.google.zxing:core:3.5.3'
+}
