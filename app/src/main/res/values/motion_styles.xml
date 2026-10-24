@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="JiannoteDialogMotion">
+        <item name="android:windowEnterAnimation">@anim/jiannote_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/jiannote_dialog_exit</item>
+    </style>
+    <style name="JiannoteSheetMotion">
+        <item name="android:windowEnterAnimation">@anim/jiannote_sheet_enter</item>
+        <item name="android:windowExitAnimation">@anim/jiannote_sheet_exit</item>
+    </style>
+</resources>
