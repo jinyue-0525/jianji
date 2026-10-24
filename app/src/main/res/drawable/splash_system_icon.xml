@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The in-app SplashView draws the complete brand once the first frame is ready. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="288dp" android:height="288dp"
+    android:viewportWidth="288" android:viewportHeight="288">
+    <path android:fillColor="@android:color/transparent" android:pathData="M0,0 H288 V288 H0 Z" />
+</vector>
