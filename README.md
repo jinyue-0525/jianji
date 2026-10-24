@@ -53,7 +53,7 @@ macOS 也可以使用已有的独立脚本。准备 JDK 17、Android SDK Platfor
 ```bash
 export JAVA_HOME="$(/usr/libexec/java_home -v 17)"
 export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
-./build-apk.sh
+bash build-apk.sh
 ```
 
 该脚本下载并校验 ZXing 依赖，使用本机开发密钥签名。工作目录和签名目录位于仓库上两级的 `work/`，APK 输出至同一层级的 `outputs/简记-2.0.0.apk`；请保留自己的签名密钥，不要提交到仓库。开发签名仅供本地使用，正式分发应使用自己的发布签名。
