@@ -1,0 +1,23 @@
+{
+  "name": "jianji-desktop",
+  "version": "2.0.0",
+  "description": "简记桌面版与同一局域网安全同步",
+  "author": "@yue",
+  "license": "MIT",
+  "private": true,
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "stage": "node scripts/stage.cjs",
+    "cache:electron": "node scripts/download.cjs",
+    "package": "node scripts/package.cjs"
+  },
+  "dependencies": {
+    "qrcode": "1.5.4",
+    "selfsigned": "5.5.0"
+  },
+  "devDependencies": {
+    "electron": "44.8.0",
+    "@electron/get": "^2.0.3"
+  }
+}
